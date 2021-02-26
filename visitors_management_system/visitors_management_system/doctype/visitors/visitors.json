@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "autoname": "format: {name1}",
+ "creation": "2021-02-18 21:53:00.823051",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "phone_number",
+  "email",
+  "time_of_entry",
+  "time_of_departure",
+  "address"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Phone number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "time_of_entry",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Time of entry",
+   "reqd": 1
+  },
+  {
+   "fieldname": "time_of_departure",
+   "fieldtype": "Datetime",
+   "label": "Time of Departure",
+   "reqd": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Geolocation",
+   "label": "Address",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-02-24 12:08:26.906434",
+ "modified_by": "Administrator",
+ "module": "Visitors Management System",
+ "name": "Visitors",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
